@@ -8,7 +8,7 @@ conda create -n <name>
 conda activate <name>
 ```
 
-Install these Python packeges using pip or conda:
+Install these Python packages using pip or conda:
 ```
 pip install biopython
 pip install metapub
