@@ -4,8 +4,8 @@ Synthesis of papers from the NCBI-DB/GEO using Python.
 # Set up
 Create a dedicated conda environment if you would like:
 ```
-conda create -n <name>
-conda activate <name>
+conda create -n HiChIP-DB
+conda activate HiChIP-DB
 ```
 
 Install these Python packages using pip or conda:
