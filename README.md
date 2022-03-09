@@ -17,8 +17,8 @@ pip install metapub
 
 
 # Query for new datasets and papers (2 min)
-1. On JupyterHub, run GEO_Query_for_HiChIP_DB.ipynb that's inside the geo-paper-tracker folder
-2. The output Excel file should be GEO_Query.<YYYY_MM_DD_HH_MM>.excel.
+1. On JupyterHub, run `GEO_Query_for_HiChIP_DB.ipynb` that's inside the `geo-paper-tracker` folder
+2. The output Excel file should be `GEO_Query.<YYYY_MM_DD_HH_MM>.xlsx`.
 
 ### Notes
 1. Search details `filters` and email address `Entrez.email` are set to defaults, but you can change these variables.
@@ -27,6 +27,6 @@ pip install metapub
 
 
 # Compare new datasets and papers with existing ones (seconds)
-If you have a Google Sheet of existing datasets and papers, run GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb on JupyterHub
+If you have a Google Sheet of existing datasets and papers, run `GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb` on JupyterHub
 
-If you already have an Excel sheet created by GEO_Query_for_HiChIP_DB.ipynb, run GEO_Compare_for_HiChIP_DB_Future_Runs.ipynb on JupyterHub
+If you already have an Excel sheet created by `GEO_Query_for_HiChIP_DB.ipynb`, run `GEO_Compare_for_HiChIP_DB_Future_Runs.ipynb` on JupyterHub
