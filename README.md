@@ -19,7 +19,7 @@ pip install metapub
 # Query for new datasets and papers
 Running the entire GEO_Query_for_HiChIP_DB Jupyter Notebook should take 
 
-## Notes
+### Notes
 If an error says you don't have access to use its tool, run the following at the top of GEO_Query_for_HiChIP_DB.ipynb:
 ```
 import ssl
