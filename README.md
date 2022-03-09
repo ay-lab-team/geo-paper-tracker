@@ -17,7 +17,7 @@ pip install metapub
 
 
 # Query for new datasets and papers (2 min)
-1. On JupyterHub, run `GEO_Query_for_HiChIP_DB.ipynb` that's inside the `geo-paper-tracker` folder
+1. On JupyterHub, run `GEO_Query_for_HiChIP_DB.ipynb` that's inside the `geo-paper-tracker/` folder
 2. The output Excel file should be `GEO_Query.<YYYY_MM_DD_HH_MM>.xlsx`.
 
 ### Notes
