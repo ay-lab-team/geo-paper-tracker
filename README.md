@@ -16,11 +16,10 @@ pip install metapub
 
 
 
-# Query for new datasets and papers
-1. Open GEO_Query_for_HiChIP_DB.ipynb on JupyterHub
-2. Run the entire GEO_Query_for_HiChIP_DB.ipynb should take aroud 2 minutes
-3. The output Excel file should be GEO_Query.<YYYY_MM_DD_HH_MM>.excel.
-4
+# Query for new datasets and papers (2 min)
+1. Run GEO_Query_for_HiChIP_DB.ipynb on JupyterHub
+2. The output Excel file should be GEO_Query.<YYYY_MM_DD_HH_MM>.excel.
+
 ### Notes
 1. If an error says you don't have access to use its tool, run the following at the top of GEO_Query_for_HiChIP_DB.ipynb:
 ```
@@ -30,11 +29,11 @@ ssl._create_default_https_context = ssl._create_unverified_context
 2. Search details `filters` and email address `Entrez.email` are set to defaults, but you can change these variables.
 3. Outpute Excel file name `output` is set to default, but you can change this variable.
 
-# Compare new datasets and papers with existing ones
-If you have a Google Sheet of existing datasets and papers, run the following:
-1. Open GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb on JupyterHub
-2. Run the entire GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb should take a few seconds.
 
-If you already have an Excel sheet created by GEO_Query_for_HiChIP_DB.ipynb, run the following:
-1. Open GEO_Compare_for_HiChIP_DB_Future_Run.ipynb on JupyterHub
-2. Run the entire GEO_Compare_for_HiChIP_DB_Future_Run.ipynb should take a few seconds.
+
+# Compare new datasets and papers with existing ones (seconds)
+If you have a Google Sheet of existing datasets and papers:
+1. Run GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb on JupyterHub
+
+If you already have an Excel sheet created by GEO_Query_for_HiChIP_DB.ipynb:
+1. Run GEO_Compare_for_HiChIP_DB_Future_Runs.ipynb on JupyterHub
