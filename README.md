@@ -27,6 +27,6 @@ pip install metapub
 
 
 # Compare new datasets and papers with existing ones (seconds)
-If you have a Google Sheet of existing datasets and papers, run `GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb` on JupyterHub
+If you have a Google Sheet of existing datasets and papers, run `GEO_Compare_for_HiChIP_DB_Initial_Run.ipynb` on JupyterHub. The old and new file paths are hard coded.
 
 If you already have an Excel sheet created by `GEO_Query_for_HiChIP_DB.ipynb`, run `GEO_Compare_for_HiChIP_DB_Future_Runs.ipynb` on JupyterHub
