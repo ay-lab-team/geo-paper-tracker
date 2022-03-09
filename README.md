@@ -21,9 +21,9 @@ pip install metapub
 2. The output Excel file should be `GEO_Query.<YYYY_MM_DD_HH_MM>.xlsx` in the same folder you ran `GEO_Query_for_HiChIP_DB.ipynb`, so `geo-paper-tracker/`.
 
 ### Notes
-1. Search details `filters` and email address `Entrez.email` are set to defaults, but you can change these variables.
-2. Output Excel filename `output` is set to default, but you can change this variable.
-
+1. Search details `filters` and email address `Entrez.email` are set to defaults, but you can change these variables
+2. Output Excel filename `output` is set to default, but you can change this variable
+3. If you get `invalid ID "..." (rejeccted by Eutils)` error on one the cells, just rerun it.
 
 
 # Compare new datasets and papers with existing ones (seconds)
