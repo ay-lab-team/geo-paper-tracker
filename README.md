@@ -1,2 +1,20 @@
 # geo-paper-tracker
-Synthesis of papers from the NCBI-DB/GEO using Python
+Synthesis of papers from the NCBI-DB/GEO using Python.
+
+# Set up
+Create a dedicated conda environment if you would like:
+```
+conda create -n HiChIP-DB
+conda activate HiChIP-DB
+```
+
+Install these Python packages using pip or conda:
+```
+pip install biopython
+pip install metapub
+```
+
+If you experience problem, run the following:
+```
+
+```
