@@ -30,5 +30,9 @@ If you have a Google Sheet of existing datasets and papers, run `GEO_Compare_for
 If you already have an Excel sheet created by `GEO_Query_for_HiChIP_DB.ipynb`, run `GEO_Compare_for_HiChIP_DB_Future_Runs.ipynb` on JupyterHub
 
 # Generate a table linking GEO IDs with GSM and SRR IDs
-The script Linking_GSE_to_SRA.py takes as input a GEO ID plus output directory to store the original soft.txt file (from GEO) and stores a table with links between the GSE, GSM and SRR ID's with metadata information.
+The script Linking_GSE_to_SRA.py takes as input a GEO ID plus output directory to store the original soft.txt file (from GEO) and stores a table with links between the GSE, GSM and SRR ID's with metadata information. To run use:
+
+```
+python scripts/Linking_GSE_to_SRA.py {gse_id} {outdir}
+```
 
